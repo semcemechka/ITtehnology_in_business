@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 — Страница не найдена</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           background: url('img/tea-background.png') no-repeat center center/cover;
+            font-family: 'Georgia', serif;
+        }
+
+        .error-container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 50px 70px;
+            border-radius: 20px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+            max-width: 600px;
+        }
+
+        .error-container h1 {
+            font-size: 120px;
+            color: #8B4513;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .error-container h2 {
+            font-size: 28px;
+            color: #5D4037;
+            margin-bottom: 20px;
+        }
+
+        .error-container p {
+            font-size: 16px;
+            color: #6D4C41;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .error-container a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 14px 35px;
+            background: #8B4513;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .error-container a:hover {
+            background: #6D3410;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <h1>404</h1>
+        <h2>Страница не найдена</h2>
+        <p>Похоже, вы зашли не туда.<br>
+        Но не переживайте — заварите чашечку чая и вернитесь на главную страницу.</p>
+        <p>Если вы студент нашего учебного заведения и не можете найти нужную информацию, обратитесь к преподавателю.</p>
+        <a href="welcome.html">Вернуться на главную</a>
+    </div>
+</body>
+</html>

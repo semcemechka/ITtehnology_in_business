@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дорожные знаки</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+    <style>
+        .tooltip {
+            position: relative;
+        }
+        .tooltip .ui-tooltip {
+            position: absolute;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 5px;
+            z-index: 1;
+        }
+        img {
+            width: 120px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Дорожные знаки</h1>
+
+    <p>
+        <img src="img/signs/sign1.png" class="tooltip" data-hint="Скользкая дорога" alt="Знак 1">
+        <img src="img/signs/sign2.png" class="tooltip" data-hint="Опасный поворот" alt="Знак 2">
+        <img src="img/signs/sign3.png" class="tooltip" data-hint="Двустороннее движение" alt="Знак 3">
+        <img src="img/signs/sign4.png" class="tooltip" data-hint="Дикие животные" alt="Знак 4">
+        <img src="img/signs/sign5.png" class="tooltip" data-hint="Дорожные работы" alt="Знак 5">
+    </p>
+
+    <p>
+        <img src="img/signs/sign6.png" class="tooltip" data-hint="Главная дорога" alt="Знак 6">
+        <img src="img/signs/sign7.png" class="tooltip" data-hint="Пересечение дорог" alt="Знак 7">
+        <img src="img/signs/sign8.png" class="tooltip" data-hint="Движение запрещено (STOP)" alt="Знак 8">
+        <img src="img/signs/sign9.png" class="tooltip" data-hint="Движение прямо" alt="Знак 9">
+        <img src="img/signs/sign10.png" class="tooltip" data-hint="Одностороннее движение" alt="Знак 10">
+    </p>
+
+    <p>
+        <img src="img/signs/sign11.png" class="tooltip" data-hint="Ограничение массы 8т" alt="Знак 11">
+        <img src="img/signs/sign12.png" class="tooltip" data-hint="Движение грузовых запрещено" alt="Знак 12">
+        <img src="img/signs/sign13.png" class="tooltip" data-hint="Пешеходам запрещено" alt="Знак 13">
+        <img src="img/signs/sign14.png" class="tooltip" data-hint="Ограничение высоты 4.5м" alt="Знак 14">
+        <img src="img/signs/sign15.png" class="tooltip" data-hint="Разворот запрещён" alt="Знак 15">
+    </p>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+    <script>
+        $(function () {
+            $(document).tooltip({
+                items: "img",
+                content: function () {
+                    var $element = $(this);
+                    if ($element.is("img")) {
+                        return $element.data('hint');
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>

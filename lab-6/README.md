@@ -35,7 +35,8 @@
 │ ├── pizza-margarita.jpg — пицца маргарита
 │ ├── tiramisu.jpg — тирамису
 │ └── panna-cotta.jpg — панна-котта
-└── README.md — этот файл```
+└── README.md — этот файл
+```
 
 ## Технологии
 

@@ -22,6 +22,21 @@
 - ✅ Адаптивная вёрстка (media queries)
 - ✅ Состояния :focus для интерактивных элементов
 
+## Структура проекта
+```lab-6/
+── index.html — главная страница
+├── css/
+│ └── style.css — стили страницы
+├── images/ — изображения
+│ ├── hero-bg.png — фон hero-блока
+│ ├── bruschetta.jpg — брускетта с томатами
+│ ├── pasta-carbonara.jpg — паста карбонара
+│ ├── caprese.jpg — капрезе
+│ ├── pizza-margarita.jpg — пицца маргарита
+│ ├── tiramisu.jpg — тирамису
+│ └── panna-cotta.jpg — панна-котта
+└── README.md — этот файл```
+
 ## Технологии
 
 - HTML5

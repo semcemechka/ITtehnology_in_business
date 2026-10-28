@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Piazza - Итальянский ресторан</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a href="/" class="logo"> La Piazza</a>
+            <nav class="nav">
+                <a href="#menu" class="nav__link">Меню</a>
+                <a href="#about" class="nav__link">О нас</a>
+                <a href="#contacts" class="nav__link">Контакты</a>
+            </nav>
+            <button class="btn btn--reserve">Забронировать стол</button>
+        </div>
+    </header>
+
+<section class="hero">
+    <div class="hero__content">
+        <h1 class="hero__title">La Piazza</h1>
+        <p class="hero__subtitle">Вкус, объединяющий людей</p>
+        <p class="hero__text">Традиционные итальянские блюда из свежих ингредиентов</p>
+        <div class="hero__buttons">
+            <a href="#menu" class="btn btn--primary">Посмотреть меню →</a>
+            <button class="btn btn--outline">Забронировать стол</button>
+        </div>
+    </div>
+</section>
+
+    <main class="main">
+        <section class="menu" id="menu">
+            <div class="container">
+                <h2 class="section__title">Популярные блюда</h2>
+                
+
+                <div class="categories">
+                    <button class="category__btn category__btn--active">Все блюда</button>
+                    <button class="category__btn">Закуски</button>
+                    <button class="category__btn">Основные блюда</button>
+                    <button class="category__btn">Десерты</button>
+                    <button class="category__btn">Напитки</button>
+                </div>
+
+   
+                <div class="cards__grid">
+         
+                    <article class="card">
+                        <div class="card__image-wrapper">
+                            <img src="images/bruschetta.jpg" alt="Брускетта с томатами" class="card__image">
+                            <span class="badge badge--popular">Популярное</span>
+                        </div>
+                        <div class="card__content">
+                            <h3 class="card__title">Брускетта с томатами</h3>
+                            <p class="card__description">Поджаренный хлеб, томаты, базилик, оливковое масло</p>
+                            <div class="card__footer">
+                                <span class="card__price">420 ₽</span>
+                                <button class="btn__order">Хочу меню</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__image-wrapper">
+                            <img src="images/pasta-carbonara.jpg" alt="Паста Карбонара" class="card__image">
+                        </div>
+                        <div class="card__content">
+                            <h3 class="card__title">Паста Карбонара</h3>
+                            <p class="card__description">Классическая паста с беконом, яичным соусом и пармезаном</p>
+                            <div class="card__footer">
+                                <span class="card__price">650 ₽</span>
+                                <button class="btn__order">Хочу меню</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__image-wrapper">
+                            <img src="images/caprese.jpg" alt="Капрезе" class="card__image">
+                            <span class="badge badge--veg">Вегетарианское</span>
+                        </div>
+                        <div class="card__content">
+                            <h3 class="card__title">Капрезе</h3>
+                            <p class="card__description">Свежие томаты, моцарелла, базилик, оливковое масло</p>
+                            <div class="card__footer">
+                                <span class="card__price">480 ₽</span>
+                                <button class="btn__order">Хочу меню</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__image-wrapper">
+                            <img src="images/pizza-margarita.jpg" alt="Пицца Маргарита" class="card__image">
+                        </div>
+                        <div class="card__content">
+                            <h3 class="card__title">Пицца Маргарита</h3>
+                            <p class="card__description">Томаты, моцарелла, базилик, итальянские травы</p>
+                            <div class="card__footer">
+                                <span class="card__price">590 ₽</span>
+                                <button class="btn__order">Хочу меню</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__image-wrapper">
+                            <img src="images/tiramisu.jpg" alt="Тирамису" class="card__image">
+                            <span class="badge badge--popular">Популярное</span>
+                        </div>
+                        <div class="card__content">
+                            <h3 class="card__title">Тирамису</h3>
+                            <p class="card__description">Классический итальянский десерт с маскарпоне</p>
+                            <div class="card__footer">
+                                <span class="card__price">390 ₽</span>
+                                <button class="btn__order">Хочу меню</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__image-wrapper">
+                            <img src="images/panna-cotta.jpg" alt="Панна-котта" class="card__image">
+                        </div>
+                        <div class="card__content">
+                            <h3 class="card__title">Панна-котта</h3>
+                            <p class="card__description">Нежный сливочный десерт с ягодным соусом</p>
+                            <div class="card__footer">
+                                <span class="card__price">350 ₽</span>
+                                <button class="btn__order">Хочу меню</button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="quote" id="about">
+            <div class="container">
+                <blockquote class="quote__text">
+                    <p>«Хорошая еда — это воспоминания, которые длятся дольше»</p>
+                    <cite>— La Piazza</cite>
+                </blockquote>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="contacts">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__logo">🍕 La Piazza</div>
+                <div class="footer__nav">
+                    <a href="#menu" class="footer__link">Меню</a>
+                    <a href="#about" class="footer__link">О нас</a>
+                    <a href="#contacts" class="footer__link">Контакты</a>
+                </div>
+                <div class="footer__contacts">
+                    <p>📍 г. Москва, ул. Итальянская, 10</p>
+                    <p>📞 +7 (495) 123-45-67</p>
+                    <p>🕐 Ежедневно 11:00 - 23:00</p>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>© 2025 La Piazza. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

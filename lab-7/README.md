@@ -18,7 +18,7 @@
 
 ## Ссылки
 - GitHub: https://github.com/semcemechka
-- Демо: http://127.0.0.1:5500/index.html
+- Демо: https://semcemechka.github.io/sememechka.github.io
 
 
 ## Как проверить

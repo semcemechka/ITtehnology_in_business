@@ -18,7 +18,7 @@
 
 ## Ссылки
 - GitHub: https://github.com/semcemechka
-- Демо: file:///C:/Users/Mary/Documents/GitHub/ITtehnology_in_business/lab-7/index.html
+- Демо: http://127.0.0.1:5500/index.html
 
 
 ## Как проверить

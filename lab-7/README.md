@@ -18,6 +18,7 @@
 
 ## Ссылки
 - GitHub: https://github.com/semcemechka
+- Демо: file:///C:/Users/Mary/Documents/GitHub/ITtehnology_in_business/lab-7/index.html
 
 
 ## Как проверить

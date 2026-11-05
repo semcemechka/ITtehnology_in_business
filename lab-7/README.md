@@ -17,8 +17,8 @@
 - JavaScript (переключение видов)
 
 ## Ссылки
-- GitHub: https://github.com/semcemechka/ваш-ник.github.io
-- Демо: https://semcemechka.github.io
+- GitHub: https://github.com/semcemechka
+
 
 ## Как проверить
 1. Откройте страницу на компьютере
